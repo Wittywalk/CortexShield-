@@ -28,6 +28,6 @@ python-for-android==0.7.3 # Buildozer dependency for compiling Python code into 
 setuptools==56.0.0        # Packaging and building tools for Python modules
 SQAlchemy==1.4.27
 numpy==1.21.4
-
+cffi==1.15.1
 # Other dependencies may include those for specific libraries used in your app
 # such as SQLAlchemy, numpy, etc., if you are using them.

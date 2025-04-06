@@ -8,7 +8,7 @@ version = 1.0
 source.dir = .
 source.main = run_all_processes.py
 
-requirements = python3,kivy,requests==2.28.1,termcolor==1.1.0,loguru==0.5.3,psutil==5.9.1,simplejson==3.17.6,schedule==1.1.0,cython==0.29.24,pyjnius==1.3.0,pillow==8.4.0,setuptools==56.0.0
+requirements = python3,kivy,zlib.h,cffi,requests==2.28.1,termcolor==1.1.0,loguru==0.5.3,psutil==5.9.1,simplejson==3.17.6,schedule==1.1.0,cython==0.29.24,pyjnius==1.3.0,pillow==8.4.0,setuptools==56.0.0
 
 android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE,WAKE_LOCK,FOREGROUND_SERVICE,RECEIVE_BOOT_COMPLETED
 
