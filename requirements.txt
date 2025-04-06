@@ -1,0 +1,33 @@
+# Libraries for enhanced terminal interaction
+subprocess
+time
+os
+shutil
+hashlib
+json
+datetime
+
+termcolor==1.1.0        # For colored output in the terminal
+requests==2.28.1        # If you plan to interact with external APIs or make HTTP requests
+
+# Libraries for logging
+loguru==0.5.3           # For better logging and log handling
+
+# Libraries for subprocess handling (optional for more advanced handling)
+psutil==5.9.1           # For process and system monitoring
+
+# JSON handling (if you want a more advanced system for storing configuration states)
+simplejson==3.17.6      # A faster JSON library
+
+# If you use threading or background tasks in the app
+schedule==1.1.0         # For scheduling tasks in Python
+cython==3.0.11           # Required by Kivy and Buildozer for compiling C extensions
+pyjnius==1.3.0            # Python-JNI for Android access
+pillow==8.4.0             # Image handling for Kivy apps
+python-for-android==0.7.3 # Buildozer dependency for compiling Python code into APK
+setuptools==56.0.0        # Packaging and building tools for Python modules
+SQAlchemy==1.4.27
+numpy==1.21.4
+
+# Other dependencies may include those for specific libraries used in your app
+# such as SQLAlchemy, numpy, etc., if you are using them.
